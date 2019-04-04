@@ -5,9 +5,12 @@ const AppWrapper = styled.div `
     padding: 60px 0;
   }
 `
-const FormWrapper = styled.form `
+const CardWrapper = styled.div `
   margin: 0 auto; 
-  max-width: 320px;
+  max-width: 400px;
+  font-family: Quicksand, arial, sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .05), 0 0px 40px rgba(0, 0, 0, .08);
+  border-radius: 5px;
 `
 const ImgWrapper = styled.img `
     width: 70%;
@@ -16,4 +19,8 @@ const ImgWrapper = styled.img `
     margin-right:  auto ;
     margin-bottom:  20px 
 `
-export {AppWrapper, FormWrapper,ImgWrapper} ;
+const CardLink = styled.p`
+ margin-top: 25px;
+ text-align: center;
+`
+export {AppWrapper, CardWrapper,ImgWrapper, CardLink} ;
